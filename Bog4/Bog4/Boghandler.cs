@@ -10,7 +10,7 @@ namespace Bog4
     {
         public void Sælg(Bog bogMethod) 
         {
-            bogMethod.str = "Gay Hitler Sex";
+            bogMethod.str = "Such cool book to read you should read it is really cool I really like it and you should too.";
         }
     }
 }
