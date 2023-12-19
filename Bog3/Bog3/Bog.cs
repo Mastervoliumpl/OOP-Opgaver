@@ -11,6 +11,8 @@ namespace Bog2
         public string title { get; set; }
         public string author { get; set; }
 
+        public Bog() { }
+
         public Bog(string title, string author)
         {
             this.title = title;
