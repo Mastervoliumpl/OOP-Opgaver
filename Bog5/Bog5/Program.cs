@@ -2,9 +2,19 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            Bog bog = new Bog
+            {
+                str = "Hello",
+                antalSider = 17
+            };
+
+            Boghandler handler = new Boghandler();
+
+            handler.Sælg(bog);
+
+            Console.WriteLine($"Title: {bog.str} | Antal sider: {bog.antalSider}");
         }
     }
 }
