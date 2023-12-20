@@ -7,17 +7,16 @@ using System.Threading.Tasks;
 
 namespace Bog7
 {
-    internal class Bog
+    public class Bog
     {
-        string title {  get; set; }
-        int antalSider {  get; set; }
-        int bogId {  get; set; }
+        public string Titel { get; set; }
+        public int AntalSider { get; set; }
+        public int Nr { get; set; }
 
-        public Bog(string title, int antalSider, int bogId)
+        public Bog(string titel, int antalSider)
         {
-            this.title = title;
-            this.antalSider = antalSider;
-            this.bogId = bogId;
+            Titel = titel;
+            AntalSider = antalSider;
         }
     }
 }
