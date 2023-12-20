@@ -35,7 +35,6 @@
             {
                 Console.WriteLine($"Unable to Parse number: {doubleValue}");
             }
-
         }
     }
 }
